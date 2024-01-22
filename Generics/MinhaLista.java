@@ -22,7 +22,7 @@ public class MinhaLista<T, U> {
         for (int i = 0; i < this.elementos.size(); i++) {
             if (this.elementos.get(i) instanceof Pessoa) {
                 Pessoa pessoa = (Pessoa) this.elementos.get(i);
-                Long l =(Long) pessoa.getId();
+                Long l = pessoa.getId();
                 if (l.equals(identificador)) {
                     return i;
                 }
