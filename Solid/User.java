@@ -46,26 +46,3 @@ public class User {
     // Métodos de acesso (getters/setters)
 }
 
-public class UserRepository {
-    public void saveUser(User user) {
-        // Salva o usuário no banco de dados
-    }
-}
-
-public class EmailService {
-    public void sendEmail(User user, String message) {
-        // Envia um e-mail para o usuário
-    }
-}
-
-public class SMSService {
-    public void sendSMS(User user, String message) {
-        // Envia um sms para o usuário
-    }
-}
-
-public class CPFService {
-    public boolean isValidCPF(String cpf) {
-        // Faz o calculo para verificar se o cpf está correto
-    }
-}

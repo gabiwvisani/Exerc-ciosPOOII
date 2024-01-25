@@ -38,16 +38,11 @@ public class Pedido {
     private List<Item> itens;
 
     // getters e setters
-}
 
-class CalculadoraPedido {
     public double calcularTotalPedido(List<Item> itens) {
         /*...*/
     }
-}
 
-// Classe responsável por operações relacionadas aos itens
-class GerenciadorItens {
     public long getQtdItens(List<Item> itens) {
         /*...*/
     }
@@ -57,44 +52,6 @@ class GerenciadorItens {
     }
 
     public void deletarItem(List<Item> itens, Item item) {
-        /*...*/
-    }
-}
-class ImpressoraPedido {
-    public void imprimirPedido(Pedido pedido) {
-        /*...*/
-    }
-
-    public void imprimirItens(List<Item> itens) {
-        /*...*/
-    }
-}
-class RepositorioPedido {
-    public Pedido buscarPedido(long id) {
-        /*...*/
-    }
-
-    public void salvar(Pedido pedido) {
-        /*...*/
-    }
-
-    public void atualizar(long id, Pedido pedido) {
-        /*...*/
-    }
-
-    public void deletar(long id) {
-        /*...*/
-    }
-}
-
-class EnviadorEmail {
-    public void enviarEmailConfirmacao(String mensagem) {
-        /*...*/
-    }
-}
-
-class TransportadorPedido {
-    public void enviarParaTransporte(Pedido pedido) {
         /*...*/
     }
 }
